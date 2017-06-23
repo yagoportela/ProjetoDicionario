@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dicionario.FXMLPrincipalController">
+    <top>
+        <VBox>
+            <children>
+                <HBox>
+                    <children>
+                        <Label fx:id="titulo" text="Dicionário eletrõnico ĈE-Brazilo® da língua internacional ESPERANTO" />
+                        <HBox alignment="TOP_RIGHT" HBox.hgrow="ALWAYS">
+                            <children>
+                                <ComboBox fx:id="menu" onAction="#EventoMenu">
+                                    <opaqueInsets>
+                                        <Insets right="20.0" top="10.0" />
+                                    </opaqueInsets>
+                                    <HBox.margin>
+                                        <Insets right="10.0" top="10.0" />
+                                    </HBox.margin>
+                                </ComboBox>
+                            </children>
+                        </HBox>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </top>
+    <center>
+    </center>
+    <bottom>
+        <VBox alignment="BOTTOM_RIGHT" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="subTitulo" text="ĈE-Brazilo ✩ Câmara Brasileira da Lingua Internacional Esperanto ✩ Brazila Ĉambro de Lingvo Internacia Esperanto" />
+            </children>
+        </VBox>
+    </bottom>
+</BorderPane>

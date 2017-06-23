@@ -1,0 +1,55 @@
+.body{
+    -fx-background-image: url(file:Imagens/Fundo.jpg); 
+    -fx-background-size: stretch;
+}
+
+#ativado{
+    -fx-text-fill: #008000;
+}
+
+#desativado{
+    -fx-text-fill: red;
+}
+
+#dicionario{
+    -fx-background-image: url(file:Imagens/Fundo.jpg); 
+    -fx-background-size: stretch;
+}
+
+#label{   
+    -fx-font-size: 150%;    
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: #008000;
+    -fx-cursor: hand;
+
+}
+
+#label1{
+    -fx-font-size: 180%;    
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: #ffffff;  
+    -fx-cursor: hand;
+}
+
+#botao{
+	-fx-cursor: hand;
+        -fx-text-fill: #008000;
+	-fx-background-color:#FFFFFF;
+        -fx-background-image: url(file:Imagens/Fundo.jpg); 
+        
+}
+
+#botao:hover{
+	-fx-cursor: hand;
+        -fx-text-fill: #FFFFFF;        
+}
+
+#titulo{
+    -fx-padding: 10 0 5 10;
+    -fx-font-size: 130%;  
+    -fx-font-weight:bold;
+    -fx-font-style: italic;
+    -fx-font-family: "sans-serif";
+    -fx-text-fill: #008000; 
+}
+

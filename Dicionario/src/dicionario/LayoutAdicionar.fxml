@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dicionario.LayoutAdicionarController">
+    
+        <children>
+            <TextField fx:id="tfPalavra" layoutX="222.0" layoutY="25.0" />
+            <Label layoutX="160.0" layoutY="29.0" text="Palavra" />
+            <Label layoutX="462.0" layoutY="29.0" text="Idioma" />
+            <Label layoutX="64.0" layoutY="66.0" text="Classe Gramatical" />
+            <TextArea fx:id="taClasseGramatical" layoutX="60.0" layoutY="83.0" prefHeight="80.0" prefWidth="930.0" />
+            <Label layoutX="60.0" layoutY="208.0" text="Tradução" />
+            <TextArea fx:id="taTraducao" layoutX="60.0" layoutY="225.0" prefHeight="80.0" prefWidth="930.0" />
+            <Label layoutX="57.0" layoutY="317.0" text="Significados" />
+            <TextArea fx:id="taDerivacao" layoutX="57.0" layoutY="450.0" prefHeight="130.0" prefWidth="476.0" />
+            <TextArea fx:id="taSignificado" layoutX="57.0" layoutY="334.0" prefHeight="80.0" prefWidth="930.0" />
+            <Label layoutX="57.0" layoutY="433.0" text="Derivações" />
+            <Label layoutX="568.0" layoutY="433.0" text="Locuções" />
+            <TextArea fx:id="taLocucoes" layoutX="568.0" layoutY="450.0" prefHeight="126.0" prefWidth="458.0" />
+            <Button layoutX="59.0" layoutY="585.0" mnemonicParsing="false" onMouseClicked="#Salvar" text="Finalizar" />
+      <Label layoutX="761.0" layoutY="29.0" text="Dicionario" />
+      <TextField fx:id="tfIdioma" editable="false" layoutX="518.0" layoutY="25.0" />
+      <Button layoutX="134.0" layoutY="585.0" mnemonicParsing="false" onMouseClicked="#AdicionarPalavras" text="Adicionar" />
+      <ComboBox fx:id="cbDicionario" layoutX="826.0" layoutY="25.0" prefWidth="150.0" />
+      <Button layoutX="63.0" layoutY="171.0" mnemonicParsing="false" text="Adicionar Classe" />
+        </children>
+               
+    </AnchorPane>
